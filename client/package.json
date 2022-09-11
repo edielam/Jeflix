@@ -1,0 +1,9 @@
+{
+  "name": "jeflix",
+  "version": "1.0.0",
+  "description": "netflix clone ui",
+  "main": "index.js",
+  "author": "Edward Lampoh",
+  "license": "MIT",
+  "private": true
+}
