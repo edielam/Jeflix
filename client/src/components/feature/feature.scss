@@ -2,7 +2,7 @@
     height: 90vh;
     position: relative;
   
-    .category {
+    .fea-category {
       position: absolute;
       top: 80px;
       left: 50px;
@@ -16,6 +16,7 @@
         cursor: pointer;
         background-color: var(--main-color);
         border: 1px solid white;
+        border-radius: 10px;
         color: white;
         margin-left: 20px;
         padding: 5px;
