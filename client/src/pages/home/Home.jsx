@@ -1,4 +1,5 @@
 import Feature from "../../components/feature/Feature";
+import MovList from "../../components/movlist/Movlist";
 import Navbar from "../../components/navbar/Navbar";
 import "./home.scss";
 
@@ -7,6 +8,9 @@ const Home = () => {
     <div className="home">
       <Navbar/>
       <Feature type="movie"/>
+      <MovList/>
+      <MovList/>
+      <MovList/>
     </div>
   );
 };
