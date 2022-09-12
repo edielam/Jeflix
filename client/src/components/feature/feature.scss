@@ -1,4 +1,4 @@
-.featured {
+.feature {
     height: 90vh;
     position: relative;
   
@@ -60,12 +60,12 @@
           margin-right: 10px;
           cursor: pointer;
   
-          &.play {
+          &.play-btn {
             background-color: white;
             color: var(--main-color);
           }
   
-          &.more {
+          &.more-btn {
             background-color: gray;
             color: white;
           }

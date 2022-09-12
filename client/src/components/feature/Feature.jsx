@@ -10,7 +10,7 @@ export default function Feature ({type}) {
             />
             <div className="fea-info">
                 <img
-                    src="https://assets-prd.ignimgs.com/2022/01/19/ringsofpowerlotr-sq-1642614059904.jpg"
+                    src="https://occ-0-1432-1433.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABUZdeG1DrMstq-YKHZ-dA-cx2uQN_YbCYx7RABDk0y7F8ZK6nzgCz4bp5qJVgMizPbVpIvXrd4xMBQAuNe0xmuW2WjoeGMDn1cFO.webp?r=df1"
                     alt=""
                 />
                 <span className="info-desc">
@@ -19,6 +19,16 @@ export default function Feature ({type}) {
                     molestiae unde molestias cum libero nisi, atque exercitationem 
                     quae commodi, aperiam voluptatem quasi porro.
                 </span>
+                <div className="buttons">
+                    <button className="play-btn">
+                        <PlayArrow/>
+                        <span>Play</span>
+                    </button>
+                    <button className="more-btn">
+                        <InfoOutlined/>
+                        <span>Info</span>
+                    </button>
+                </div>
             </div>
         </div>
     )
