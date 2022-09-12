@@ -16,6 +16,9 @@ const MovList = () => {
             <div>
                 <MovListItem idx={0}/>
             </div>
+            <ArrowForwardIosOutlined
+                className='slideArrow right'
+            />
         </div>
     </div>
   )
