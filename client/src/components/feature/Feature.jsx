@@ -10,7 +10,7 @@ export default function Feature ({type}) {
             />
             <div className="fea-info">
                 <img
-                    src="https://occ-0-1432-1433.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABUZdeG1DrMstq-YKHZ-dA-cx2uQN_YbCYx7RABDk0y7F8ZK6nzgCz4bp5qJVgMizPbVpIvXrd4xMBQAuNe0xmuW2WjoeGMDn1cFO.webp?r=df1"
+                    src="https://m.media-amazon.com/images/G/01/pv_starlight/trop-c9184079-2c78-432f-9f38-49d5ab3c4158/en-US_HRZ_LT_TT-3056de86-c0d6-4bd8-a25e-1bc700b00ed4._FMpng_.png"
                     alt=""
                 />
                 <span className="info-desc">
