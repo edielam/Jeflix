@@ -6,7 +6,7 @@ import { useState } from 'react'
 const MovList = () => {
     const [isMoved, setIsMoved] = useState(false)
   return (
-    <div className='mList'>
+    <div className='movList'>
         <span className='mListTitle'>Continue to Watch</span>
         <div className='wrapper'>
             <ArrowBackIosOutline
