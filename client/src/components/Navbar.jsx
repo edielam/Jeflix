@@ -4,8 +4,8 @@ import { Search, Notifications, ArrowDropDown } from '@material-ui/icons'
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <div className='container'>
-            <div className='left'>
+        <div className='nav-container'>
+            <div className='nav-left'>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png" alt=''/>
                 <span>Homepage</span>
                 <span>Series</span>
@@ -13,17 +13,17 @@ const Navbar = () => {
                 <span>New and Popular</span>
                 <span>My List</span>
             </div>
-            <div className='right'>
-                <Search className="icon" />
+            <div className='nav-right'>
+                <Search className="nav-icon" />
                 <span>KID</span>
-                <Notifications className="icon" />
+                <Notifications className="nav-icon" />
                 <img
-                    src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    src="https://www.hollywoodreporter.com/wp-content/uploads/2022/09/Sophia-Nomvete-Rings-of-Power-Still-Amazon-Publicity-H-2022.jpg?w=1296"
                     alt=""
                 />
-                <div className="profile">
-                    <ArrowDropDown className="icon" />
-                    <div className="options">
+                <div className="nav-profile">
+                    <ArrowDropDown className="nav-icon" />
+                    <div className="nav-options">
                         <span>Settings</span>
                         <span>Logout</span>
                     </div>
