@@ -11,7 +11,14 @@ export default function Feature ({type}) {
             <div className="fea-info">
                 <img
                     src="https://assets-prd.ignimgs.com/2022/01/19/ringsofpowerlotr-sq-1642614059904.jpg"
-                    alt=""/>
+                    alt=""
+                />
+                <span className="info-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Facere voluptas fuga, eligendi ab dolorum blanditiis pariatur 
+                    molestiae unde molestias cum libero nisi, atque exercitationem 
+                    quae commodi, aperiam voluptatem quasi porro.
+                </span>
             </div>
         </div>
     )
