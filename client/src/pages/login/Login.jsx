@@ -5,7 +5,8 @@ export default function Login() {
         <div className="login">
             <div className="log-top">
                 <div className="log-wrapper">
-
+                <img className="logo" 
+                    src="https://raw.githubusercontent.com/edielam/ReactNodeJava/main/practice/JEFLIX2-removebg-preview.png" alt=''/>
                 </div>
             </div>
             <div className="container">
