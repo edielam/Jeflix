@@ -10,7 +10,7 @@ export default function Login() {
             </div>
             <div className="container">
                 <form>
-                    <h1>SIGN IN</h1>
+                    <h1 className="hpos">SIGN IN</h1>
                     <input type="email" placeholder="Email or Phone number"/>
                     <input type="password" placeholder="Password"/>
                     <button className="login-btn">Sign In</button>
