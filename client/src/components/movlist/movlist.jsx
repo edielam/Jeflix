@@ -6,7 +6,7 @@ import {
 import ListItem from "../movlistitem/movlistitem";
   import "./movlist.scss";
   
-  export default function List() {
+  export default function List({category}) {
     const [isMoved, setIsMoved] = useState(false);
     const [slideNumber, setSlideNumber] = useState(0);
   
@@ -26,7 +26,7 @@ import ListItem from "../movlistitem/movlistitem";
     };
     return (
       <div className="movlist">
-        <span className="listTitle">Continue to watch</span>
+        <span className="listTitle">{category}</span>
         <div className="wrapper">
           <ArrowBackIosOutlined
             className="sliderArrow left"

@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home">
       <Navbar/>
       <Feature type="movie"/>
-      <MovList/>
+      <MovList category={"Continue to Watch"}/>
       <MovList/>
       <MovList/>
     </div>
