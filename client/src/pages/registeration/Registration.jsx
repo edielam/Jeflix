@@ -23,15 +23,13 @@ export default function Register() {
                         src="https://raw.githubusercontent.com/edielam/ReactNodeJava/main/practice/JEFLIX2-removebg-preview.png" 
                         alt=''
                     />
-                <button className="loginButton">Sign In</button>
+                <button className="log-btn">Sign In</button>
                 </div>
             </div>
             <div className="container">
                 <h1>Unlimited movies, TV shows, and more.</h1>
                 <h2>Watch anywhere. Cancel anytime.</h2>
-                <p>
-                Ready to watch? Enter your email to create or restart your membership.
-                </p>
+                <p>Ready to watch? Enter your email to create or restart your membership. </p>
       </div>
     )
 }
