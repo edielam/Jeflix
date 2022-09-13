@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="home">
       <Navbar/>
-      <Feature type="movie"/>
+      <Feature/>
       <MovList category={"Trending"}/>
       <MovList category={"Continue to Watch"}/>
       <MovList category={"My List"}/>
