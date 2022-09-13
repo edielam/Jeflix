@@ -9,6 +9,7 @@ const App = () => {
     <Home/>
     <Login/>
     <Registeration/>
+    <Watch/>
   </>
 }
 export default App;
