@@ -8,13 +8,10 @@ export default function Watch() {
         <ArrowBackOutlined />
         Home
       </div>
-      <video
-        className="video"
-        autoPlay
-        progress
-        controls
-        src="https://player.vimeo.com/video/743556886?h=4051a8ce41&title=0&byline=0" 
-      />
+      <iframe className="video" width="966" height="543" src="https://www.youtube.com/embed/x8UAUAuKNcU" 
+      title="The Lord of the Rings: The Rings of Power - Official Trailer | Prime Video" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen></iframe>
     </div>
   );
 }
