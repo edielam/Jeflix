@@ -3,8 +3,8 @@ import "./login.scss"
 export default function Login() {
     return(
         <div className="login">
-            <div className="top">
-                <div className="wrapper">
+            <div className="log-top">
+                <div className="log-wrapper">
 
                 </div>
             </div>
