@@ -10,8 +10,8 @@
     background-size: cover;
     position: relative;
   
-    .top {
-      .wrapper {
+    .reg-top {
+      .reg-wrapper {
         padding: 20px 50px;
         display: flex;
         align-items: center;
@@ -75,7 +75,7 @@
             padding: 0 10px;
         }
   
-        .registerButton{
+        .reg-btn{
             flex: 3;
             height: 100%;
             background-color: red;
