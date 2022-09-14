@@ -26,7 +26,7 @@ router.put("/:id", verify, async (req, res) => {
       res.status(500).json(err);
     }
   } else {
-    res.status(403).json("You can update only your account!");
+    res.status(403).json("Permission denied. Admins only!!");
   }
 });
 
@@ -40,7 +40,7 @@ router.delete("/:id", verify, async (req, res) => {
       res.status(500).json(err);
     }
   } else {
-    res.status(403).json("You can delete only your account!");
+    res.status(403).json("Permission denied. Admins only!!");
   }
 });
 
@@ -69,7 +69,7 @@ router.get("/", verify, async (req, res) => {
       res.status(500).json(err);
     }
   } else {
-    res.status(403).json("You are not allowed to see all users!");
+    res.status(403).json("Permission denied. Admins only!!");
   }
 });
 
