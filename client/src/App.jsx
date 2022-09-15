@@ -1,5 +1,4 @@
-import { Switch } from "@material-ui/core";
-import { Route, BrowserRouter as Router, } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import "./app.scss"
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
@@ -8,23 +7,13 @@ import Watch from "./pages/watch/Watch";
 
 const App = () => {
   return <Router>
-    <Switch>
-      <Route exact path ="/">
-        <Home/>
-      </Route>
-      <Route path="/register">
-        <Registeration/>
-      </Route>
-      <Route path="/login">
-        <Login/>
-      </Route>
-      <Route path="/movies">
-        <Home type="movies"/>
-      </Route>
-      <Route path="/series">
-        <Home type="series"/>
-      </Route>
-    </Switch>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/movies" element={<Home type="movies"/>}/>
+      <Route path="/series" element={<Home type="series"/>}/>
+      <Route path="/register" element={<Registeration/>}/>
+      <Route path="/login" element={<Login/>}/>
+      </Routes>
   </Router>
 }
 export default App;
