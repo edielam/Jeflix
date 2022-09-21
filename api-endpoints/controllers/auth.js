@@ -1,6 +1,7 @@
 const router = require("express").Router();
 const User = require("../models/User");
 const CryptoJS = require("crypto-js")
+const jwt = require('jsonwebtoken')
 
 router.post("/register", async (req, res) => {
     const newUser = new User({
@@ -19,7 +20,7 @@ router.post("/register", async (req, res) => {
     }
   });
 
-  router.post("/login", async (req, res) => {
+router.post("/login", async (req, res) => {
     try {
       const user = await User.findOne({ email: req.body.email });
       !user && res.status(401).json("Wrong password or username!");
