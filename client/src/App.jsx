@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Route, BrowserRouter as Router, Routes, Navigate} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import "./app.scss"
 import { AuthContext } from "./authContext/AuthContext";
 import Home from "./pages/home/Home";
