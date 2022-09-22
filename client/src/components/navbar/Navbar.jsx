@@ -15,7 +15,9 @@ const Navbar = () => {
         <div className='nav-container'>
             <div className='nav-left'>
                 <img src="https://raw.githubusercontent.com/edielam/ReactNodeJava/main/practice/JEFLIX2-removebg-preview.png" alt=''/>
-                <span>Homepage</span>
+                <Link to='/' className='link'>
+                    <span>Homepage</span>
+                </Link>
                 <Link to="/series" className='link'>
                     <span>Series</span>
                 </Link>
