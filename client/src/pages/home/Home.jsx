@@ -34,7 +34,7 @@ const Home = ({type}) => {
   return (
     <div className="home">
       <Navbar/>
-      <Feature type={type}/>
+      <Feature type={type} setGenre={setGenre}/>
       {movlists.map((mlist) => (
         <MovList category={mlist}/>
       ))}
