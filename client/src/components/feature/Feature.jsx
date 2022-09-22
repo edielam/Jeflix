@@ -1,13 +1,35 @@
 import { InfoOutlined, PlayArrow } from "@material-ui/icons";
+import { useEffect, useState } from "react";
 import './feature.scss';
+import axios from "axios";
 
-export default function Feature ({type}) {
+export default function Feature ({type, setGenre}) {
+    const [content, setContent] = useState({});
+    useEffect(() => {
+        const getRandomContent = async () => {
+          try {
+            const res = await axios.get(`/movies/random?type=${type}`, {
+              headers: {
+                token:
+                  "Bearer "+JSON.parse(localStorage.getItem("user")).accessToken,
+              },
+            });
+            setContent(res.data[0]);
+          } catch (err) {
+            console.log(err);
+          }
+        };
+        getRandomContent();
+      }, [type]);
+    
+    console.log(content)
     return (
         <div className="feature">
             {type && (
                 <div className="fea-category">
                     <span>{type === "movies" ? "Movies" : "Series"}</span>
-                    <select name="genre" id="genre">
+                    <select name="genre" id="genre" 
+                    onChange={(e) => setGenre(e.target.value)}>
                         <option>Genre</option>
                         <option value="adventure">Adventure</option>
                         <option value="comedy">Comedy</option>
