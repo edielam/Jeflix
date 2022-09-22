@@ -1,9 +1,17 @@
+import { useEffect } from "react";
+import { useState } from "react";
 import Feature from "../../components/feature/Feature";
 import MovList from "../../components/movlist/Movlist";
 import Navbar from "../../components/navbar/Navbar";
 import "./home.scss";
 
 const Home = ({type}) => {
+  const [movlists, setMovList] = useState([]);
+  const [genre, setGenre] = useState(null);
+
+  useEffect(() => {
+    
+  })
   return (
     <div className="home">
       <Navbar/>
