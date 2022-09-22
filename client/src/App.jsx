@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Routes, Re, Navigate} from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes, Navigate} from "react-router-dom";
 import "./app.scss"
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
@@ -10,11 +10,14 @@ const App = () => {
   return <Router>
     <Routes>
       <Route path="/" element={user ? <Home /> : <Navigate replace to="/register" />}/>
-      <Route path="/movies" element={<Home type="movies"/>}/>
-      <Route path="/series" element={<Home type="series"/>}/>
-      <Route path="/register" element={<Registeration/>}/>
-      <Route path="/login" element={<Login/>}/>
-      <Route path="/watch" element={<Watch/>}/>
+      <Route path="/register" element={user ? <Registeration/> :  <Navigate replace to="/"/>}/>
+      <Route path="/login" element={user ? <Login/>:  <Navigate replace to="/"/>}/>
+      {user && (
+      <>
+        <Route path="/movies" element={<Home type="movies"/>}/>
+        <Route path="/series" element={<Home type="series"/>}/>
+        <Route path="/watch" element={<Watch/>}/> 
+      </>)}
       </Routes>
   </Router>
 }
