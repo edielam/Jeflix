@@ -9,18 +9,31 @@ import Watch from "./pages/watch/Watch";
 
 const App = () => {
   const {user} = useContext(AuthContext)
-  return <Router>
-    <Routes>
-      <Route path="/" element={user ? <Home /> : <Navigate replace to="/register" />}/>
-      <Route path="/register" element={user ? <Registeration/> :  <Navigate replace to="/"/>}/>
-      <Route path="/login" element={user ? <Login/>:  <Navigate replace to="/"/>}/>
-      {user && (
-      <>
-        <Route path="/movies" element={<Home type="movies"/>}/>
-        <Route path="/series" element={<Home type="series"/>}/>
-        <Route path="/watch" element={<Watch/>}/> 
-      </>)}
-      </Routes>
-  </Router>
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          {user ? <Home /> : <Redirect to="/register" />}
+        </Route>
+        <Route path="/register">
+          {!user ? <Registeration /> : <Redirect to="/" />}
+        </Route>
+        <Route path="/login">{!user ? <Login /> : <Redirect to="/" />}</Route>
+        {user && (
+          <>
+            <Route path="/movies">
+              <Home type="movie" />
+            </Route>
+            <Route path="/series">
+              <Home type="series" />
+            </Route>
+            <Route path="/watch">
+              <Watch />
+            </Route>
+          </>
+        )}
+      </Switch>
+    </Router>
+  );
 }
 export default App;

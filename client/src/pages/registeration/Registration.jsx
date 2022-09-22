@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { useState } from "react";
-import { useNavigate } from "react-router";
+import { useHistory } from "react-router-dom";
 import "./registeration.scss";
 import axios from "axios";
 
@@ -8,7 +8,7 @@ export default function Registeration() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
-  const history = useNavigate();
+  const history = useHistory;
   const emailRef = useRef();
   const passwordRef = useRef();
   const usernameRef = useRef();
@@ -22,7 +22,7 @@ export default function Registeration() {
     setUsername(usernameRef.current.value);
     try {
       await axios.post("auth/register", { email,username, password });
-      history("/login");
+      history.push("/login");
     } catch (err) {}
   };
   return (
