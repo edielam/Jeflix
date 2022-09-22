@@ -1,6 +1,7 @@
 import './navbar.scss'
 import { Search, Notifications, ArrowDropDown } from '@material-ui/icons'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -15,8 +16,12 @@ const Navbar = () => {
             <div className='nav-left'>
                 <img src="https://raw.githubusercontent.com/edielam/ReactNodeJava/main/practice/JEFLIX2-removebg-preview.png" alt=''/>
                 <span>Homepage</span>
-                <span>Series</span>
-                <span>Movies</span>
+                <Link to="/series" className='link'>
+                    <span>Series</span>
+                </Link>
+                <Link to="/movies" className='link'>
+                    <span>Movies</span>
+                </Link>
                 <span>New and Popular</span>
                 <span>My List</span>
             </div>
