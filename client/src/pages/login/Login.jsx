@@ -1,6 +1,11 @@
+import { useContext, useState } from "react";
+import { AuthContext } from "../../authContext/AuthContext";
 import "./login.scss"
 
 export default function Login() {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const { dispatch } = useContext(AuthContext);
     return(
         <div className="login">
             <div className="log-top">
