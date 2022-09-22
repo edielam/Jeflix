@@ -9,7 +9,6 @@ export default function Registeration() {
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
   const history = useNavigate();
-
   const emailRef = useRef();
   const passwordRef = useRef();
   const usernameRef = useRef();
@@ -23,7 +22,7 @@ export default function Registeration() {
     setUsername(usernameRef.current.value);
     try {
       await axios.post("auth/register", { email,username, password });
-      history.push("/login");
+      history("/login");
     } catch (err) {}
   };
   return (
