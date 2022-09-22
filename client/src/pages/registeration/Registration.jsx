@@ -8,11 +8,13 @@ export default function Registeration() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
-  const history = useHistory;
+  const history = useHistory();
   const emailRef = useRef();
   const passwordRef = useRef();
   const usernameRef = useRef();
-
+  // const handleLogin = () => {
+  //   history.push("/login");
+  // } 
   const handleStart = () => {
     setEmail(emailRef.current.value);
   };
