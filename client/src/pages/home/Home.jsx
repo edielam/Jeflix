@@ -4,13 +4,31 @@ import Feature from "../../components/feature/Feature";
 import MovList from "../../components/movlist/Movlist";
 import Navbar from "../../components/navbar/Navbar";
 import "./home.scss";
+import axios from 'axios';
 
 const Home = ({type}) => {
-  const [movlists, setMovList] = useState([]);
+  const [movlists, setMovLists] = useState([]);
   const [genre, setGenre] = useState(null);
 
   useEffect(() => {
-    
+    const randomLists = async () => {
+      try {
+        const res = await axios.get(
+          `lists${type ? "?type=" + type : ""}${
+            genre ? "&genre=" + genre : ""
+          }`,
+          {
+            headers: {
+              token:
+              "Bearer "+JSON.parse(localStorage.getItem("user")).accessToken,
+            },
+          }
+        );
+        setMovLists(res.data);
+      } catch (err) {
+        console.log(err);
+      }
+    }
   })
   return (
     <div className="home">
