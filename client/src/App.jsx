@@ -1,12 +1,14 @@
+import { useContext } from "react";
 import { Route, BrowserRouter as Router, Routes, Navigate} from "react-router-dom";
 import "./app.scss"
+import { AuthContext } from "./authContext/AuthContext";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Registeration from "./pages/registeration/Registration";
 import Watch from "./pages/watch/Watch";
 
 const App = () => {
-  const user = false;
+  const {user} = useContext(AuthContext)
   return <Router>
     <Routes>
       <Route path="/" element={user ? <Home /> : <Navigate replace to="/register" />}/>
