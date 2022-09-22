@@ -28,15 +28,16 @@ const Home = ({type}) => {
       } catch (err) {
         console.log(err);
       }
-    }
-  })
+    };
+    randomLists();
+  },[type, genre]);
   return (
     <div className="home">
       <Navbar/>
       <Feature type={type}/>
-      <MovList category={"Trending"}/>
-      <MovList category={"Continue to Watch"}/>
-      <MovList category={"My List"}/>
+      {movlists.map((mlist) => (
+        <MovList category={mlist}/>
+      ))}
     </div>
   );
 };
