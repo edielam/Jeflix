@@ -12,9 +12,9 @@ export default function Registeration() {
   const emailRef = useRef();
   const passwordRef = useRef();
   const usernameRef = useRef();
-  // const handleLogin = () => {
-  //   history.push("/login");
-  // } 
+  const handleLogin = () => {
+    history.push("/login");
+  } 
   const handleStart = () => {
     setEmail(emailRef.current.value);
   };
@@ -35,7 +35,7 @@ export default function Registeration() {
             className="logo" 
             src="https://raw.githubusercontent.com/edielam/ReactNodeJava/main/practice/JEFLIX2-removebg-preview.png" alt=''/>
                 
-          <button className="loginButton">Sign In</button>
+          <button className="loginButton" onClick={handleLogin}>Sign In</button>
         </div>
       </div>
       <div className="container">
