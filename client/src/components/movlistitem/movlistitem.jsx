@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function ListItem({ index, item }) {
   const [isHovered, setIsHovered] = useState(false);
-  const [movie, setMovie] = useState({});
+  const [movies, setMovie] = useState({});
 
   useEffect(() => {
     const getMovie = async () => {
@@ -25,17 +25,17 @@ export default function ListItem({ index, item }) {
     getMovie();
   }, [item]);
   return (
-    <Link to={{ pathname: "/watch", movie: movie }}>
+    <Link to={{ pathname: "/watch", movies: movies }}>
     <div
       className="movlistItem"
       style={{ left: isHovered && index * 225 - 50 + index * 2.5 }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img src={movie?.imgSm} alt="" />
+      <img src={movies?.imgSm} alt="" />
       {isHovered && (
         <>
-          <video src={movie.trailer} autoPlay={true} loop />
+          <video src={movies.trailer} autoPlay={true} loop />
           <div className="itemInfo">
             <div className="icons">
               <PlayArrow className="icon" />
@@ -44,12 +44,12 @@ export default function ListItem({ index, item }) {
               <ThumbDownOutlined className="icon" />
             </div>
             <div className="itemInfoTop">
-              <span>{movie.duration}</span>
-              <span className="limit">+{movie.limit}</span>
-              <span>{movie.year}</span>
+              <span>{movies.duration}</span>
+              <span className="limit">+{movies.limit}</span>
+              <span>{movies.year}</span>
             </div>
-            <div className="desc">{movie.desc}</div>
-            <div className="genre">{movie.genre}</div>
+            <div className="desc">{movies.desc}</div>
+            <div className="genre">{movies.genre}</div>
           </div>
         </>
       )}
