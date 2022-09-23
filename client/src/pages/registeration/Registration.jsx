@@ -29,15 +29,11 @@ export default function Registeration() {
   };
   return (
     <div className="registeration">
-      <div className="reg-top">
-        <div className="reg-wrapper">
+        <div className="reg-top">
         <img 
             className="logo" 
             src="https://raw.githubusercontent.com/edielam/ReactNodeJava/main/practice/JEFLIX2-removebg-preview.png" alt=''/>
-                
-          <button className="loginButton" onClick={handleLogin}>Sign In</button>
         </div>
-      </div>
       <div className="container">
         <h1>Unlimited movies, TV shows, and more.</h1>
         <h2>Watch anywhere. Cancel anytime.</h2>
@@ -59,7 +55,9 @@ export default function Registeration() {
               Start
             </button>
           </form>
-        )}
+        )}<br/><p>Already have an account?</p><br/>
+          <button onClick={() => {handleLogin()}}>Sign In
+          </button>
       </div>
     </div>
   );

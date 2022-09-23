@@ -9,34 +9,33 @@
       url("https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2022/04/Netflix.png");
     background-size: cover;
     position: relative;
-  
+
+    button {
+      background-color: red;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+
+    } 
+    
     .reg-top {
-      position: relative;
-      .reg-wrapper {
         padding: 20px 50px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: relative;
   
         .logo {
           height: 55px;
           cursor: pointer;
           pointer-events: auto;
         }
-  
-        .loginButton {
-          background-color: red;
-          border: none;
-          color: white;
-          border-radius: 5px;
-          padding: 5px 15px;
-          font-size: 16px;
-          font-weight: 500;
-          cursor: pointer;
 
-        }
       }
-    }
   
     .container {
       width: 100%;
@@ -88,6 +87,7 @@
             font-size: 22px;
             cursor: pointer;
         }
+        
       }
     }
   }
