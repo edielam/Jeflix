@@ -2,9 +2,14 @@ import { InfoOutlined, PlayArrow } from "@material-ui/icons";
 import { useEffect, useState } from "react";
 import './feature.scss';
 import axios from "axios";
+import { useHistory } from "react-router";
 
 export default function Feature ({type, setGenre}) {
     const [content, setContent] = useState({});
+    const history = useHistory();
+    const handlePlay = () => {
+      history.push("/watch");
+    } 
     useEffect(() => {
         const getRandomContent = async () => {
           try {
@@ -52,7 +57,7 @@ export default function Feature ({type, setGenre}) {
                     <img src={content.imgTitle} alt="" />
                     <span className="info-desc">{content.desc}</span>
                     <div className="buttons">
-                    <button className="play-btn">
+                    <button className="play-btn" onClick={() => {handlePlay()}}>
                         <PlayArrow />
                         <span>Play</span>
                     </button>

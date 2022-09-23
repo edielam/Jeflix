@@ -2,11 +2,15 @@ import "./movlistitem.scss";
 import { PlayArrow, Add, ThumbUpAltOutlined, ThumbDownOutlined} from "@material-ui/icons";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 export default function ListItem({ index, item }) {
   const [isHovered, setIsHovered] = useState(false);
   const [movies, setMovie] = useState({});
+  const history = useHistory();
+    const handlePlay = () => {
+      history.push("/watch");
+    } 
 
   useEffect(() => {
     const getMovie = async () => {
@@ -38,7 +42,8 @@ export default function ListItem({ index, item }) {
           <video src={movies.trailer} autoPlay={true} loop />
           <div className="itemInfo">
             <div className="icons">
-              <PlayArrow className="icon" />
+              <span onClick={() => {handlePlay()}}>
+              <PlayArrow className="icon" /></span>
               <Add className="icon" />
               <ThumbUpAltOutlined className="icon" />
               <ThumbDownOutlined className="icon" />
