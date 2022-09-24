@@ -13,7 +13,7 @@ export default function Watch() {
         <ArrowBackOutlined className="svg_icons" />
         
       </button>
-      <iframe className="video" width="966" height="543" src="https://www.youtube.com/embed/x8UAUAuKNcU" 
+      <iframe className="video" width="966" height="543" src="https://www.youtube.com/embed/x8UAUAuKNcU?autoplay=1" 
       title="The Lord of the Rings: The Rings of Power - Official Trailer | Prime Video" frameBorder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
       allowFullScreen></iframe>
