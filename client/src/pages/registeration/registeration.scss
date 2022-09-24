@@ -19,7 +19,6 @@
       font-size: 20px;
       font-weight: 500;
       cursor: pointer;
-
     } 
     
     .reg-top {
@@ -27,12 +26,13 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        position: relative;
+        position: absolute;
+        z-index: 2;
   
         .logo {
           height: 55px;
-          cursor: pointer;
           pointer-events: auto;
+          padding-right: 1050px;
         }
 
       }

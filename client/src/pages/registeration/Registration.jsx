@@ -33,6 +33,8 @@ export default function Registeration() {
         <img 
             className="logo" 
             src="https://raw.githubusercontent.com/edielam/ReactNodeJava/main/practice/JEFLIX2-removebg-preview.png" alt=''/>
+        <button onClick={() => {handleLogin()}}>Sign In
+          </button>
         </div>
       <div className="container">
         <h1>Unlimited movies, TV shows, and more.</h1>
@@ -55,9 +57,10 @@ export default function Registeration() {
               Start
             </button>
           </form>
-        )}<br/><p>Already have an account?</p><br/>
+        )}
+        {/* <br/><p>Already have an account?</p><br/>
           <button onClick={() => {handleLogin()}}>Sign In
-          </button>
+          </button> */}
       </div>
     </div>
   );
