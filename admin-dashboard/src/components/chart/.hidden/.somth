@@ -1,0 +1,28 @@
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDYJpMg7gHIpOnrwHXFOustWmZ4uF3uXYu+pO9xMMN2Px+QvF4NF2Qyqb+o88U2ySw7uVe9a6lj/wqF1Stf9TPkmlIpH7QJwwrPl2pRqfvkIEiagNIUPp30/B8rIIO+ocqUMyIUH/Z05QdpU6a3BD/Fcq0aQcjeN+sH987VN5G0jeinbIE0HZ/9hJQPq43Gpt7g2TkUB4te1qo4SfigMcv0ToPm7QG8Zpjn0MsgsY8iKYY1GrribFos4GIPUoO/F9ZNH1tsu2QVcTfAI+ggd72dQhWbwhtCRS6oYPfhad73kEzXvnqLrJzVm2SZTX5EtoqD81uTtutmvk8V0pMgcJrYicq2NXSUY+h9dyy8iAaVHM14AbMnKXwQJ/srLYvu0N435/BpHFwKzZtM3Eupoa7DfzB2DvI9LCqYVjuDYmw9YIumBwvR+mxNYT5XpP6TBLz9sTABvcElEul6GCaohoFU5fDtmoywv8oNhmHvU93ebHS39DGXMJ4ush50kuEMY0s= eddie@Edwards-MacBook-Air.local
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Hello Eddie's Server</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+
