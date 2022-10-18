@@ -7,13 +7,7 @@ import { ListContextProvider } from "./context/listContext/ListContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <AuthContextProvider>
-      <MovieContextProvider>
-        <ListContextProvider>
-          <App />
-        </ListContextProvider>
-      </MovieContextProvider>
-    </AuthContextProvider>
+          <App/>
   </React.StrictMode>,
   document.getElementById("root")
 );
