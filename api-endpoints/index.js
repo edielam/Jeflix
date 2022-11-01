@@ -19,6 +19,8 @@ mongoose.connect(process.env.MONGO_URL, {
     .catch((err) => {
         console.error(err);
     });
+
+app.use(cors());
 app.use(express.json());
 
 app.use("/api/auth", authCtrl);
