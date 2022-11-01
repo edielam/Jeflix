@@ -11,11 +11,13 @@ export default function ListItem({ index, item }) {
     const handlePlay = () => {
       history.push("/watch");
     } 
-
+    const axiosInstance = axios.create({
+      baseURL: process.env.REACT_APP_API_URL,
+    }); 
   useEffect(() => {
     const getMovie = async () => {
       try {
-        const res = await axios.get("/movies/find/" + item, {
+        const res = await axiosInstance.get("/movies/find/" + item, {
           headers: {
             token:
             "Bearer "+JSON.parse(localStorage.getItem("user")).accessToken,
