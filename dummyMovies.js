@@ -1,5 +1,31 @@
 const movieData = [
     {
+        "title": "The Rings Of Power",
+        desc : "A retelling of Tolkiens most famed story",
+        img : "https://www.hollywoodreporter.com/wp-content/uploads/2022/09/Sophia-No…",
+        imgTitle : "https://m.media-amazon.com/images/G/01/pv_starlight/trop-c9184079-2c78…",
+        imgSm : "https://cdn.wionews.com/sites/default/files/2022/08/05/284808-lord-of-…",
+        trailer : "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2…",
+        video : "https://www.youtube.com/embed/x8UAUAuKNcU",
+        year : "2022",
+        limit : 16,
+        genre : "fantasy",
+        isSeries : true
+    },
+    {
+        title : "The Lord of The Rings",
+        desc : "J R R Tolkiens most famed story",
+        img : "https://www.hollywoodreporter.com/wp-content/uploads/2022/09/Sophia-No…",
+        imgTitle : "https://m.media-amazon.com/images/G/01/pv_starlight/trop-c9184079-2c78…",
+        imgSm : "https://cdn.vox-cdn.com/thumbor/642IjxoKUVj_-nO9yFEP1Swtwik=/1400x1050…",
+        trailer : "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2…",
+        video : "https://www.youtube.com/embed/x8UAUAuKNcU",
+        year : "2022",
+        limit : 16,
+        genre : "fantasy",
+        isSeries : false
+    },
+    {
         "title": "The Walking Dead",
         "desc": "In the wake of a zombie apocalypse, various survivors struggle to stay alive. As they search for safety and evade the undead, they are forced to grapple with rival groups and difficult choices",
         "img": "https://wallpaperaccess.com/full/481127.jpg",
