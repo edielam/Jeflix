@@ -6,6 +6,7 @@ const authCtrl = require("./controllers/auth");
 const userCtrl = require("./controllers/users");
 const listCtrl = require("./controllers/lists");
 const movCtrl = require("./controllers/movies");
+const cors = require("cors");
 
 dotenv.config();
 

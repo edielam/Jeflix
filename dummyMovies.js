@@ -788,7 +788,7 @@ const movieData = [
         "video": "https://www.youtube.com/watch?v=ue80QwXMRHg&ab_channel=MarvelEntertainment",
         "year": "2017",
         "limit": 12,
-        "genre": "Action/Adventure",
+        "genre": "Action",
         "isSeries": false
     },
     {
@@ -801,7 +801,7 @@ const movieData = [
         "video": "https://www.youtube.com/watch?v=zymgtV99Rko&ab_channel=HBO",
         "year": "2009 ",
         "limit": 12,
-        "genre": "Action/Sci-fi",
+        "genre": "Sci-fi",
         "isSeries": false
     },
         

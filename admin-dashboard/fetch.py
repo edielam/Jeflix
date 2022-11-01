@@ -1043,5 +1043,6 @@ input_json = """
 input_dict = json.loads(input_json)
 
 for x in input_dict:
-    print("\"{b}\"".format(b = x["_id"]))
+    if x['title'] == "Thor: Ragnarok":
+        print("\"{b}\"".format(b = x["_id"]))
 
