@@ -284,7 +284,7 @@ const movieData = [
         "genre": "action ",
         "isSeries": false
     },
-    {// 23
+    {
         "title": "Mr. Robot",
         "desc": "Elliot, a cyber-security engineer suffering from anxiety, works for a corporation and hacks felons by night. Panic strikes him after Mr Robot, a cryptic anarchist, recruits him to ruin his company.",
         "img": "https://img.usanetwork.com/sites/nbcunbc/files/images/2019/9/25/MrRobot-S4-KeyArt-Lg-2048x1152.jpg",
@@ -297,7 +297,7 @@ const movieData = [
         "genre": "Drama  ",
         "isSeries": true
     },
-    {// 24
+    {
         "title": "Gossip Girl",
         "desc": "Blair Waldorf is a popular student at her private school and envied by one and all. But, her perfect life is unsettled when her ex-best friend enrols in the same institution.",
         "img": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/67235566bbfffe5970e3003b06979877fa190fcd0153271f22800d3e46498b76._SX1080_.jpg",
@@ -310,7 +310,7 @@ const movieData = [
         "genre": "Drama",
         "isSeries": true
     },
-    {// 25
+    {
         "title": "Sherlock",
         "desc": "Dr Watson, a former army doctor, finds himself sharing a flat with Sherlock Holmes, an eccentric individual with a knack for solving crimes. Together, they take on the most unusual cases.",
         "img": "https://media.gq-magazine.co.uk/photos/5d1398609fa6011b928387cf/master/pass/Sherlock.jpg",
@@ -323,7 +323,7 @@ const movieData = [
         "genre": "mystery",
         "isSeries": true
     },
-    {// 26
+    {
         "title": "Avengers: Infinity War",
         "desc": "The Avengers must stop Thanos, an intergalactic warlord, from getting his hands on all the infinity stones. However, Thanos is prepared to go to any lengths to carry out his insane plan.",
         "img": "https://www.screengeek.net/wp-content/uploads/2019/01/avengers-infinity-war.jpg",
@@ -336,7 +336,7 @@ const movieData = [
         "genre": "Action",
         "isSeries": false
     },
-    {// 27
+    {
         "title": "The Witch",
         "desc": "In the New England of the 17th century, a banished Puritan family sets up a farm by the edge of a huge remote forest where no other family lives. Soon, sinister forces then start haunting them.",
         "img": "https://variety.com/wp-content/uploads/2014/12/the-witch.jpg",
@@ -349,7 +349,7 @@ const movieData = [
         "genre": "horror",
         "isSeries": false
     },
-    {// 28
+    {
         "title": "The Lord of the Rings",
         "desc": "A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed.",
         "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2021/04/The-hobbit-the-battle-of-the-five-armies-lord-of-the-rings-the-fellowship-of-the-ring.jpg",
@@ -362,7 +362,7 @@ const movieData = [
         "genre": "fantasy",
         "isSeries": false
     },
-    {// 29
+    {
         "title": "The Irishman",
         "desc": "In the 1950s, truck driver Frank Sheeran gets involved with Russell Bufalino and his Pennsylvania crime family. As Sheeran climbs the ranks to become a top hit man, he also goes to work for Jimmy Hoffa -- a powerful Teamster tied to organized crime.",
         "img": "https://m.media-amazon.com/images/M/MV5BM2UyMmM0NGItZWNlMS00MmE0LWE4NmQtMTI0NTU5ZDU2NTViXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
@@ -375,7 +375,7 @@ const movieData = [
         "genre": "Crime",
         "isSeries": false
     },
-    {// 30
+    {
         "title": "Joker",
         "desc": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him. Isolated, bullied and disregarded by society, Fleck begins a slow descent into madness as he transforms into the criminal mastermind known as the Joker.",
         "img": "https://m.media-amazon.com/images/M/MV5BMGQ1ZGZmNTAtM2MyYi00NmZhLTkwYmYtNTNlZDRhMzU2ZTgwXkEyXkFqcGdeQW1yb3NzZXI@._V1_.jpg",
@@ -388,7 +388,7 @@ const movieData = [
         "genre": "Crime",
         "isSeries": false
     },
-    {// 31
+    {
         "title": "The Others",
         "desc": "Grace moves into a new house with her two photosensitive children in Jersey. When a series of inexplicable events occur, Grace starts believing that her house is haunted.",
         "img": "https://m.media-amazon.com/images/M/MV5BMTY1NjE5ODA2OV5BMl5BanBnXkFtZTgwNjYzMjg1NjM@._V1_.jpg",
@@ -401,7 +401,7 @@ const movieData = [
         "genre": "horror",
         "isSeries": false
     },
-    {// 32
+    {
         "title": "Se7en",
         "desc": "A serial killer begins murdering people according to the seven deadly sins. Two detectives, one new to the city and the other about to retire, are tasked with apprehending the criminal.",
         "img": "https://wallpaperaccess.com/full/3693035.jpg",
@@ -414,7 +414,7 @@ const movieData = [
         "genre": "mystery",
         "isSeries": false
     },
-    {// 33
+    {
         "title": "Fight Club",
         "desc": "Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. The project soon spirals down into something sinister.",
         "img": "https://darkroom.bbfc.co.uk/1920/819ad7550455fd18deaa00c62c1be59b:07f1d17a4c91afaec0b553655e0ead94/fight-club-1999.png",
@@ -427,7 +427,7 @@ const movieData = [
         "genre": "mystery",
         "isSeries": false
     },
-    {// 34
+    {
         "title": "Better Call Saul",
         "desc": "Ex-con artist Jimmy McGill turns into a small-time attorney and goes through a series of trials and tragedies, as he transforms into his alter ego Saul Goodman, a morally challenged criminal lawyer.",
         "img": "https://m.media-amazon.com/images/M/MV5BZWEyOTRmN2QtNDlmZS00YThiLWEzNGEtNzIxYTc4OTBjNDY0XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg",
