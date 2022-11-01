@@ -25,7 +25,7 @@ const movieData = [
         "genre": "drama  ",
         "isSeries": true
     },
-    { //3
+    { 
         "title": "Kill Bill",
         "desc": "A pregnant assassin, code-named The Bride, goes into a coma for four years after her ex-boss Bill brutally attacks her. When she wakes up, she sets out to seek revenge on him and his associates",
         "img": "https://www.indiewire.com/wp-content/uploads/2018/02/kill-bill-uma-thurman.jpg",
@@ -38,7 +38,7 @@ const movieData = [
         "genre": "crime",
         "isSeries": false
     },
-    { // 4
+    { 
         "title": "I Am Legend",
         "desc": "Robert Neville, a scientist, is the last human survivor of a plague in the whole of New York. He attempts to find a way to reverse the effects of the man-made virus by using his own immune blood.",
         "img": "https://images.metadata.sky.com/pd-image/c4cdb0e7-9bd2-4882-81d7-08c216e1986e/16-9",
@@ -51,7 +51,7 @@ const movieData = [
         "genre": "Horror",
         "isSeries": false
     },
-    { // 5
+    { 
         "title": "Wind River",
         "desc": "Cory Lambert is a wildlife officer who finds the body of an 18-year-old woman on an American Indian reservation in snowy Wyoming. When the autopsy reveals that she was raped, FBI agent Jane Banner arrives to investigate. Teaming up with Lambert as a guide, the duo soon find that their lives are in danger while trying to solve the mystery of the teen's death.",
         "img": "https://wallpapercave.com/wp/wp2108695.jpg",
@@ -64,7 +64,7 @@ const movieData = [
         "genre": "mystery",
         "isSeries": false
     },
-    {  // 6
+    {  
         "title": "Silent Hill",
         "desc": "Rose and her daughter, Sharon, leave their house to go to Silent Hill. On their way Rose meets with an accident knocking her unconscious and when she awakes, Sharon is missing.",
         "img": "https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-05-21-12-20/64889.jpg/EG11/thumbnail/732x412/format/jpg/quality/50",
@@ -77,7 +77,7 @@ const movieData = [
         "genre": "horror  ",
         "isSeries": false
     },
-    {// 7
+    {
         "title": "Inception",
         "desc": "Cobb steals information from his targets by entering their dreams. Saito offers to wipe clean Cobb's criminal history as payment for performing an inception on his sick competitor's son.",
         "img": "https://www.highlandernews.org/wp-content/uploads/radar.inception.warnerbrospictures.jpg",
@@ -90,7 +90,7 @@ const movieData = [
         "genre": "mystery",
         "isSeries": false
     },
-    { //8
+    {
         "title": "Lost",
         "desc": "The survivors of a plane crash find themselves stranded on a mysterious island. They are forced to work together for their survival when they realise that they are not alone on the island.",
         "img": "https://cdn.vox-cdn.com/thumbor/xPdawFUJmBMjSUXs-GPDyAuSHB4=/0x0:2000x1270/1200x800/filters:focal(906x333:1226x653)/cdn.vox-cdn.com/uploads/chorus_image/image/65336936/lostcasts1.0.jpg",
@@ -103,7 +103,7 @@ const movieData = [
         "genre": "mystery",
         "isSeries": true
     },
-    { //9
+    { 
         "title": "Game of Thrones",
         "desc": "Nine noble families wage war against each other in order to gain control over the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men.",
         "img": "https://wallpapercave.com/wp/wp4275032.jpg",
@@ -116,7 +116,7 @@ const movieData = [
         "genre": "fantasy",
         "isSeries": true
     },
-    {// 10
+    {
         "title": "The Shining",
         "desc": "Jack and his family move into an isolated hotel with a violent past. Living in isolation, Jack begins to lose his sanity, which affects his family members.",
         "img": "https://images2.minutemediacdn.com/image/upload/c_crop,h_1279,w_2274,x_0,y_133/v1554739619/shape/mentalfloss/55893-warner_home_video3.jpg?itok=iVYyXTvI",
@@ -129,7 +129,7 @@ const movieData = [
         "genre": "horror ",
         "isSeries": false
     },
-    {// 11
+    {
         "title": "The Conjuring",
         "desc": "Paranormal investigators Ed and Lorraine Warren take on one of the most sensational cases of their careers after a cop stumbles upon a dazed and bloodied young man walking down the road. Accused of murder, the suspect claims demonic possession as his defense, forcing the Warrens into a supernatural inquiry unlike anything they've ever seen before.",
         "img": "https://www.screengeek.net/wp-content/uploads/2020/05/the-conjuring-franchise.jpg",
@@ -142,7 +142,7 @@ const movieData = [
         "genre": "horror ",
         "isSeries": false
     },
-    {// 12
+    {
         "title": "I Care a Lot",
         "desc": "A shady legal guardian lands in hot water when she tries to bilk a woman who has ties to a powerful gangster.",
         "img": "https://images.squarespace-cdn.com/content/v1/59d7e2c7e45a7c0ce235bb55/1614034945581-KVT48ECNPNE7YXY2V4MB/Film-Review-I-Care-a-Lot.jpg",
@@ -154,7 +154,7 @@ const movieData = [
         "genre": "Comedy  ",
         "isSeries": false
     },
-    {  // 13
+    {  
         "title": "Peaky Blinders",
         "desc": "Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham. Soon, Chester Campbell, an inspector, decides to nab him and put an end to the criminal activities.",
         "img": "https://imgsrc.cineserie.com/2021/05/peaky-blinders-online.jpg?ver=1",
@@ -167,7 +167,7 @@ const movieData = [
         "genre": "Drama",
         "isSeries": true
     },
-    {// 14
+    {
         "title": "La Casa De Papel",
         "desc": 'A criminal mastermind who goes by "The Professor" has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain. To help him carry out the ambitious plan, he recruits eight people with certain abilities and who have nothing to lose. The group of thieves take hostages to aid in their negotiations with the authorities, who strategize to come up with a way to capture The Professor. As more time elapses, the robbers prepare for a showdown with the police',
         "img": "https://wallpapercave.com/wp/wp6581266.jpg",
@@ -180,7 +180,7 @@ const movieData = [
         "genre": "Thriller",
         "isSeries": true
     },
-    {// 15
+    {
         "title": "Friends",
         "desc": "Follow the lives of six reckless adults living in Manhattan, as they indulge in adventures which make their lives both troublesome and happening.",
         "img": "https://c.files.bbci.co.uk/22AC/production/_118667880_ka_05_friendsreunion.jpg",
@@ -193,7 +193,7 @@ const movieData = [
         "genre": "comeday",
         "isSeries": true
     },
-    { // 16
+    { 
         "title": "Django Unchained",
         "desc": "When Django, a slave, is freed, he joins forces with a bounty hunter to rescue his wife, who has been enslaved by Calvin, a hard-hearted plantation owner.",
         "img": "https://pickywallpapers.com/img/2018/12/django-unchained-movie-wide-wallpaper-93-100-hd-wallpapers.jpg",
@@ -206,7 +206,7 @@ const movieData = [
         "genre": "action ",
         "isSeries": false
     },
-    { // 17
+    { 
         "title": "Dexter",
         "desc": "While Dexter tries to reconnect with Debra, Miami Metro investigates a new serial killer.",
         "img": "https://www.teahub.io/photos/full/39-399202_high-resolution-dexter-hd-wallpaper-id-dexter-morgan.jpg",
@@ -219,7 +219,7 @@ const movieData = [
         "genre": "mystery",
         "isSeries": true
     },
-    {// 18
+    {
         "title": "The Sopranos",
         "desc": "ITony Soprano, an Italian-American mafia head based in New Jersey, struggles to manage his family and criminal life and confides his affairs to his psychiatrist Jennifer Melfi.",
         "img": "https://m.media-amazon.com/images/M/MV5BM2NmZDNmYTItZGM0OS00NDVmLTgwMjUtZDdmYjg0OWNiODE2XkEyXkFqcGdeQXVyNDIyNjA2MTk@._V1_.jpg",
@@ -232,7 +232,7 @@ const movieData = [
         "genre": "Drama  ",
         "isSeries": true
     },
-    {// 19
+    {
         "title": "The Dark Knight",
         "desc": "After Gordon, Dent and Batman begin an assault on Gotham's organised crime, the mobs hire the Joker, a psychopathic criminal mastermind who offers to kill Batman and bring the city to its knees.",
         "img": "https://i.pinimg.com/originals/1e/1f/31/1e1f3119f45bf518c55ad81e5695c169.jpg",
@@ -245,7 +245,7 @@ const movieData = [
         "genre": "action ",
         "isSeries": false
     },
-    {// 20
+    {
         "title": "Predestination",
         "desc": "As his last assignment, a temporal agent is tasked to travel back in time and prevent a bomb attack in New York in 1975. The hunt, however, turns out to be beyond the bounds of possibility.",
         "img": "https://themoviemylife.files.wordpress.com/2014/11/screen-shot-2014-11-13-at-14-43-38.png",
@@ -258,7 +258,7 @@ const movieData = [
         "genre": "mystery ",
         "isSeries": false
     },
-    {// 21
+    {
         "title": "Interstellar",
         "desc": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
         "img": "https://www.10wallpaper.com/wallpaper/2560x1600/1501/interstellar_matthew_mcconaughey-Movie_High_Quality_Wallpaper_2560x1600.jpg",
@@ -271,7 +271,7 @@ const movieData = [
         "genre": "Sci-fi",
         "isSeries": false
     },
-    {// 22
+    {
         "title": "Gladiator",
         "desc": "Commodus takes over power and demotes Maximus, one of the preferred generals of his father, Emperor Marcus Aurelius. As a result, Maximus is relegated to fighting till death as a gladiator.",
         "img": "https://scalarama.com/wp-content/uploads/2017/08/Gladiator-wallpaper.jpg",
