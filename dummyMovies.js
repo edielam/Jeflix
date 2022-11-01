@@ -440,7 +440,7 @@ const movieData = [
         "genre": "Drama ",
         "isSeries": true
     },
-    {// 35
+    {
         "title": "The Witcher",
         "desc": "The witcher Geralt, a mutated monster hunter, struggles to find his place in a world in which people often prove more wicked than beasts. ",
         "img": "https://variety.com/wp-content/uploads/2020/06/henry-cavill-the-witcher.jpg",
@@ -453,7 +453,7 @@ const movieData = [
         "genre": "Fantasy",
         "isSeries": true
     },
-    {// 36
+    {
         "title": "Mindhunter",
         "desc": "Catching a criminal often requires the authorities to get inside the villain's mind to figure out how he thinks. That's the job of FBI agents Holden Ford and Bill Tench. They attempt to understand and catch serial killers by studying their damaged psyches. Along the way, the agents pioneer the development of modern serial-killer profiling. The crime drama has a strong pedigree behind the camera, with Oscar-nominated director David Fincher and Oscar-winning actress Charlize Theron among the show's executive producers.",
         "img": "https://media.vanityfair.com/photos/59e622dcba5ae801ce174b04/4:3/w_1280,h_960,c_limit/mindhunter-review.jpg",
@@ -466,7 +466,7 @@ const movieData = [
         "genre": "Thriller ",
         "isSeries": true
     },
-    {// 37
+    {
         "title": "Tenet",
         "desc": "When a few objects that can be manipulated and used as weapons in the future fall into the wrong hands, a CIA operative, known as the Protagonist, must save the world.",
         "img": "https://images3.alphacoders.com/109/thumb-1920-1095565.jpg",
@@ -479,7 +479,7 @@ const movieData = [
         "genre": "Action ",
         "isSeries": false
     },
-    {// 38
+    {
         "title": "Goodfellas",
         "desc": "Young Henry Hill, with his friends Jimmy and Tommy, begins the climb from being a petty criminal to a gangster on the mean streets of New York.",
         "img": "https://www.rollingstone.com/wp-content/uploads/2020/08/goodfellasc.jpg",
@@ -492,7 +492,7 @@ const movieData = [
         "genre": "Crime ",
         "isSeries": false
     },
-    {// 39
+    {
         "title": "Ip Man 4",
         "desc": "Ip Man and his son encounter racial discrimination after traveling to the United States to seek a better life.",
         "img": "https://images.hdqwalls.com/wallpapers/ip-man-4-the-finale-q0.jpg",
@@ -505,7 +505,7 @@ const movieData = [
         "genre": "Action ",
         "isSeries": false
     },
-    {// 40
+    {
         "title": "Lucifer",
         "desc": "Young Henry Hill, with his friends Jimmy and Tommy, begins the climb from being a petty criminal to a gangster on the mean streets of New York.",
         "img": "https://static01.nyt.com/images/2016/01/25/arts/25LUCIFER/25LUCIFER-superJumbo.jpg",
@@ -518,7 +518,7 @@ const movieData = [
         "genre": "Mystery ",
         "isSeries": true
     },
-    {// 41
+    {
         "title": "Dark",
         "desc": "When two children go missing in a small German town, its sinful past is exposed along with the double lives and fractured relationships that exist among four families as they search for the kids. The mystery-drama series introduces an intricate puzzle filled with twists that includes a web of curious characters, all of whom have a connection to the town's troubled history -- whether they know it or not. The story includes supernatural elements that tie back to the same town in 1986. Dark represents the first German original series produced for Netflix.",
         "img": "https://pics.filmaffinity.com/Dark_TV_Series-621917996-large.jpg",
@@ -531,7 +531,7 @@ const movieData = [
         "genre": "Mystery ",
         "isSeries": true
     },
-    {// 42
+    {
         "title": "The Punisher",
         "desc": "After exacting revenge on the people responsible for the deaths of his wife and children, Frank Castle uncovers a conspiracy that runs deeper than New York's criminal underworld. Now known as the Punisher, he must dig deep into the conspiracy to discover the truth about injustices that affect more than just him and his family. Assisting the vigilante in his quest to fight criminals are best friend Billy Russo, who runs private military corporation Anvil, and former NSA analyst Micro, who shares common enemies with Castle and helps him as part of a so-called marriage of convenience.",
         "img": "https://www.gannett-cdn.com/-mm-/73eaf03258b645132149bb474ebe44a532de87f1/c=0-0-4483-2533/local/-/media/2017/10/04/USATODAY/USATODAY/636427553217389372-095-CRIME-111-Unit-03137R.jpg",
@@ -544,7 +544,7 @@ const movieData = [
         "genre": "Action  ",
         "isSeries": true
     },
-    {// 43
+    {
         "title": "Loki",
         "desc": "Loki, the God of Mischief, steps out of his brother's shadow to embark on an adventure that takes place after the events of Avengers: Endgame.",
         "img": "https://wallpaperaccess.com/full/6160860.jpg",
@@ -557,7 +557,7 @@ const movieData = [
         "genre": "Action/Drama",
         "isSeries": true
     },
-    {// 44
+    {
         "title": "Narcos",
         "desc": "Netflix chronicles the rise of the cocaine trade in Colombia and the gripping real-life stories of drug kingpins of the late '80s in this raw, gritty original series. Also detailed are the actions taken by law enforcement as they battle in the war on drugs, targeting notorious and powerful figures that include drug lord Pablo Escobar. As efforts are made to control cocaine, one of the world's most valuable commodities, the many entities involved -- legal, political, police, military and civilian -- find themselves in conflict.",
         "img": "https://wallpaperaccess.com/full/1097130.jpg",
@@ -570,7 +570,7 @@ const movieData = [
         "genre": "Crime",
         "isSeries": true
     },
-    {// 45
+    {
         "title": "Once Upon a Time",
         "desc": "Rick, a washed-out actor, and Cliff, his stunt double, struggle to recapture fame and success in 1960s Los Angeles. Meanwhile, living next door to Rick is Sharon Tate and her husband Roman Polanski.",
         "img": "https://thehigharts.com/wp-content/uploads/2020/01/Once-Upon-Time-Hollywood-Poster.jpg",
@@ -583,7 +583,7 @@ const movieData = [
         "genre": "Comedy/Drama",
         "isSeries": false
     },
-    {// 46
+    {
         "title": "The Notebook",
         "desc": "Duke reads the story of Allie and Noah, two lovers who were separated by fate, to Ms Hamilton, an old woman who suffers from dementia, on a daily basis out of his notebook.",
         "img": "https://m.media-amazon.com/images/M/MV5BMTM1MDM0NDUzOF5BMl5BanBnXkFtZTcwODUxMTg0NA@@._V1_.jpg",
@@ -596,7 +596,7 @@ const movieData = [
         "genre": "Romance  ",
         "isSeries": false
     },
-    {// 47
+    {
         "title": "Bones",
         "desc": "Forensic anthropologist Dr Temperance 'Bones' Brennan and FBI Agent Seeley Booth form an unlikely alliance to solve cases by examining the remains of victims.",
         "img": "https://assets.foxdcg.com/DCG-Digital-Production/FOX/KeyArt_Originals/Bones/season_12/keyart.jpg",
@@ -609,7 +609,7 @@ const movieData = [
         "genre": "Mystery/Romance",
         "isSeries": true
     },
-    {// 48
+    {
         "title": "Me Before You",
         "desc": "After becoming unemployed, Louisa Clark is forced to accept one which requires her to take care of Will Traynor, a paralysed man. The two of them soon bond with each other.",
         "img": "https://wallpapercave.com/wp/wp2274593.jpg",
@@ -622,7 +622,7 @@ const movieData = [
         "genre": "Romance/Drama",
         "isSeries": false
     },
-    {// 49
+    {
         "title": "The Godfather",
         "desc": "After becoming unemployed, Louisa Clark is forced to accept one which requires her to take care of Will Traynor, a paralysed man. The two of them soon bond with each other.",
         "img": "https://www.denofgeek.com/wp-content/uploads/2017/03/the-godfather-scaled.jpg?fit=2560%2C1672",
@@ -635,7 +635,7 @@ const movieData = [
         "genre": "Crime/Drama ‧",
         "isSeries": false
     },
-    {// 50
+    {
         "title": "The Departed",
         "desc": "An undercover agent and a spy constantly try to counter-attack each other in order to save themselves from being exposed in front of the authorities. Meanwhile, both try to infiltrate an Irish gang.",
         "img": "https://wallpaperaccess.com/full/3644109.jpg",
@@ -648,7 +648,7 @@ const movieData = [
         "genre": "Crime/Thriller ",
         "isSeries": false
     },
-    {// 51
+    {
         "title": "A Quiet Place",
         "desc": "A family struggles for survival in a world where most humans have been killed by blind but noise-sensitive creatures. They are forced to communicate in sign language to keep the creatures at bay.",
         "img": "https://static3.srcdn.com/wordpress/wp-content/uploads/2021/07/John-Krasinski-Emily-blunt-A-quiet-place-3-.jpg",
@@ -661,7 +661,7 @@ const movieData = [
         "genre": "Horror/Sci-fi ",
         "isSeries": false
     },
-    {// 52
+    {
         "title": "IT",
         "desc": "Seven helpless and bullied children are forced to face their worst nightmares when Pennywise, a shape-shifting clown, reappears. The clown, an ancient evil torments children before feeding on them.",
         "img": "https://images.alphacoders.com/787/thumb-1920-787294.png",
@@ -674,7 +674,7 @@ const movieData = [
         "genre": "Horror/Thriller",
         "isSeries": false
     },
-    {// 53
+    {
         "title": "Undisputed 3",
         "desc": "Boyka, a Russian inmate, injures his knee before the start of the new prison fighting tournament. Despite his weak knee, Boyka decides to compete with the best fighters to earn his freedom.",
         "img": "https://wallup.net/wp-content/uploads/2019/10/97764-quotes-men-yuri-boyka-scott-adkins-undisputed-iii-redemption-mma.jpg",
@@ -687,7 +687,7 @@ const movieData = [
         "genre": "Action/Crime",
         "isSeries": false
     },
-    {// 54
+    {
         "title": "Ip Man 3",
         "desc": "Ip Man and his son encounter racial discrimination after traveling to the United States to seek a better life.",
         "img": "https://sm.ign.com/ign_tr/screenshot/default/ip-man-3-banner_22gf.jpg",
@@ -700,7 +700,7 @@ const movieData = [
         "genre": "Action/Drama",
         "isSeries": false
     },
-    {// 55
+    {
         "title": "Fleabag",
         "desc": "A dry-witted woman, known only as Fleabag, has no filter as she navigates life and love in London while trying to cope with tragedy. The angry, grief-riddled woman tries to heal while rejecting anyone who tries to help her, but Fleabag continues to keep up her bravado through it all. Comic actress Phoebe Waller-Bridge stars as the titular character on the series, which is based on Waller-Bridge's 2013 one-woman show of the same name.",
         "img": "https://wallpapercave.com/wp/wp4473993.jpg",
@@ -713,7 +713,7 @@ const movieData = [
         "genre": "Comedy-drama",
         "isSeries": true
     },
-    {// 56
+    {
         "title": "House of Cards",
         "desc": "Frank Underwood is a Democrat appointed as the secretary of state. Along with his wife, he sets out on a quest to seek revenge on the people who betrayed him while successfully rising to supremacy.",
         "img": "https://media.wired.com/photos/5933825fd80dd005b42b2742/master/pass/Kevin-Spacey-House-of-Cards-Netflix.jpg",
@@ -726,7 +726,7 @@ const movieData = [
         "genre": "Drama",
         "isSeries": true
     },
-    {// 57
+    {
         "title": "Suits",
         "desc": "Mike Ross, a talented young college dropout, is hired as an associate by Harvey Specter, one of New York's best lawyers. They must handle cases while keeping Mike's qualifications a secret.",
         "img": "https://wallpapermemory.com/uploads/691/suits-background-1080p-469243.jpg",
@@ -739,7 +739,7 @@ const movieData = [
         "genre": "Drama",
         "isSeries": true
     },
-    {// 58
+    {
         "title": "Venom",
         "desc": "While trying to take down Carlton, the CEO of Life Foundation, Eddie, a journalist, investigates experiments of human trials. Unwittingly, he gets merged with a symbiotic alien with lethal abilities.",
         "img": "https://img1.wallspic.com/originals/6/2/0/7/3/137026-eddie_brock-organ-fictional_character-television-venom-3695x2078.jpg",
@@ -752,7 +752,7 @@ const movieData = [
         "genre": "Action/Sci-fi",
         "isSeries": false
     },
-    {// 59
+    {
         "title": "Thor: Ragnarok",
         "desc": "Deprived of his mighty hammer Mjolnir, Thor must escape the other side of the universe to save his home, Asgard, from Hela, the goddess of death.",
         "img": "https://images7.alphacoders.com/821/thumb-1920-821364.jpg",
@@ -765,7 +765,7 @@ const movieData = [
         "genre": "Action/Adventure",
         "isSeries": false
     },
-    {// 60
+    {
         "title": "Watchmen",
         "desc": "Rorschach, a vigilante, sets out to investigate the mysterious circumstances under which one of his colleagues died. In the process of doing so, he discovers some disturbing secrets.",
         "img": "https://static2.srcdn.com/wordpress/wp-content/uploads/2021/05/jupiters-legacy-dc-watchmen.jpg",
