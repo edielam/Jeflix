@@ -33,7 +33,7 @@ export default function Login() {
             placeholder="Password"
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button className="login-btn" onClick={handleLogin}>
+          <button className="login-btn" onClick={() => {handleLogin()}}>
             Sign In
           </button>
           <span>

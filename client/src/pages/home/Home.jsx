@@ -33,7 +33,7 @@ const Home = ({type}) => {
       }
     };
     randomLists();
-  },[type, genre]);
+  },[type, genre, axiosInstance]);
   return (
     <div className="home">
       <Navbar/>

@@ -28,7 +28,7 @@ export default function Feature ({type, setGenre}) {
           }
         };
         getRandomContent();
-      }, [type]);
+      }, [type, axiosInstance]);
     
     console.log(content)
     return (

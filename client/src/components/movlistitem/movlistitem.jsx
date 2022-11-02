@@ -29,7 +29,7 @@ export default function ListItem({ index, item }) {
       }
     };
     getMovie();
-  }, [item]);
+  }, [item, axiosInstance]);
   return (
     <Link to={{ pathname: "/watch", movies: movies }}>
     <div
