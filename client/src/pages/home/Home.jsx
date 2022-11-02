@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Feature from "../../components/feature/Feature";
-import MovList from "../../components/movlist/Movlist";
+import List from "../../components/movlist/Movlist";
 import Navbar from "../../components/navbar/Navbar";
 import "./home.scss";
 import axios from 'axios';
@@ -39,7 +39,7 @@ const Home = ({type}) => {
       <Navbar/>
       <Feature type={type} setGenre={setGenre}/>
       {movlists.map((mlist) => (
-        <MovList category={mlist}/>
+        <List category={mlist}/>
       ))}
     </div>
   );
