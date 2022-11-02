@@ -20,7 +20,13 @@ mongoose.connect(process.env.MONGO_URL, {
         console.error(err);
     });
 
-app.use(cors());
+app.use(cors({credentials: true,
+    }));
+const xhr = new XMLHttpRequest();
+xhr.open('GET', 'http://jeflix.elam.tech/', true);
+xhr.withCredentials = true;
+xhr.send(null);
+
 app.use(express.json());
 
 app.use("/api/auth", authCtrl);
