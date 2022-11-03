@@ -9,14 +9,14 @@ import axios from 'axios';
 const Home = ({type}) => {
   const [movlists, setMovLists] = useState([]);
   const [genre, setGenre] = useState(null);
-  // const axiosInstance = axios.create({
-  //   baseURL: process.env.REACT_APP_API_URL,
-  // });
+  const axiosInstance = axios.create({
+    baseURL: process.env.REACT_APP_API_URL,
+  });
 
   useEffect(() => {
-    const getRandomLists = async () => {
+    const randomLists = async () => {
       try {
-        const res = await axios.get(
+        const res = await axiosInstance.get(
           `lists${type ? "?type=" + type : ""}${
             genre ? "&genre=" + genre : ""
           }`,
@@ -32,8 +32,8 @@ const Home = ({type}) => {
         console.log(err);
       }
     };
-    getRandomLists();
-  }, [type, genre]);
+    randomLists();
+  },[type, genre]);
   return (
     <div className="home">
       <Navbar/>

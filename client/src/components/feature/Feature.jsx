@@ -7,26 +7,28 @@ import { useHistory } from "react-router";
 export default function Feature ({type, setGenre}) {
     const [content, setContent] = useState({});
     const history = useHistory();
-    const handlePlay = () => {history.push("/watch")};
-    // const axiosInstance = axios.create({
-    //   baseURL: process.env.REACT_APP_API_URL,
-    // }); 
+    const handlePlay = () => {
+      history.push("/watch");
+    }
+    const axiosInstance = axios.create({
+      baseURL: process.env.REACT_APP_API_URL,
+    }); 
     useEffect(() => {
-      const getRandomContent = async () => {
-        try {
-          const res = await axios.get(`/movies/random?type=${type}`, {
-            headers: {
-              token:
-                "Bearer "+JSON.parse(localStorage.getItem("user")).accessToken,
-            },
-          });
-          setContent(res.data[0]);
-        } catch (err) {
-          console.log(err);
-        }
-      };
-      getRandomContent();
-    }, [type]);
+        const getRandomContent = async () => {
+          try {
+            const res = await axiosInstance.get(`/movies/random?type=${type}`, {
+              headers: {
+                token:
+                  "Bearer "+JSON.parse(localStorage.getItem("user")).accessToken,
+              },
+            });
+            setContent(res.data[0]);
+          } catch (err) {
+            console.log(err);
+          }
+        };
+        getRandomContent();
+      }, [type]);
     
     console.log(content)
     return (
