@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "1.0.0",
-  "private": true,
+  "homepage": ".",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
