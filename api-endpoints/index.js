@@ -6,7 +6,7 @@ const authCtrl = require("./controllers/auth");
 const userCtrl = require("./controllers/users");
 const listCtrl = require("./controllers/lists");
 const movCtrl = require("./controllers/movies");
-//const cors = require("cors");
+const cors = require("cors");
 
 dotenv.config();
 
@@ -20,11 +20,11 @@ mongoose.connect(process.env.MONGO_URL, {
         console.error(err);
     });
 
-//app.use(cors());
-// app.use((req, res, next) => {
-//     res.header('Access-Control-Allow-Origin', '*');
-//     next();
-//   });
+app.use(cors());
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    next();
+  });
 app.use(express.json());
 
 app.use("/api/auth", authCtrl);

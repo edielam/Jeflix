@@ -36,7 +36,7 @@ export default function Registeration() {
         <img 
             className="logo" 
             src="https://raw.githubusercontent.com/edielam/ReactNodeJava/main/practice/JEFLIX2-removebg-preview.png" alt=''/>
-        <button onClick={() => {handleLogin()}}>Sign In
+        <button className="sign-btn" onClick={() => {handleLogin()}}>Sign In
           </button>
         </div>
       <div className="container">
