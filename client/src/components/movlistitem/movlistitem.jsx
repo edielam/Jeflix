@@ -4,32 +4,31 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useHistory } from "react-router-dom";
 
-export default function ListItem({ index, item }) {
+export default function MovListItem({ index, item }) {
   const [isHovered, setIsHovered] = useState(false);
   const [movies, setMovie] = useState({});
   const history = useHistory();
-    const handlePlay = () => {
-      history.push("/watch");
-    } 
-    const axiosInstance = axios.create({
-      baseURL: process.env.REACT_APP_API_URL,
-    }); 
-  useEffect(() => {
-    const getMovie = async () => {
-      try {
-        const res = await axiosInstance.get("/movies/find/" + item, {
-          headers: {
-            token:
-            "Bearer "+JSON.parse(localStorage.getItem("user")).accessToken,
-          },
-        });
-        setMovie(res.data);
-      } catch (err) {
-        console.log(err);
-      }
-    };
-    getMovie();
-  }, [item, axiosInstance]);
+  const handlePlay = () => { history.push("/watch")}; 
+    // const axiosInstance = axios.create({
+    //   baseURL: process.env.REACT_APP_API_URL,
+    // }); 
+    useEffect(() => {
+      const getMovie = async () => {
+        try {
+          const res = await axios.get("/movies/find/" + item, {
+            headers: {
+              token:
+              "Bearer "+JSON.parse(localStorage.getItem("user")).accessToken,
+            },
+          });
+          setMovie(res.data);
+        } catch (err) {
+          console.log(err);
+        }
+      };
+      getMovie();
+    }, [item]);
+  
   return (
     <Link to={{ pathname: "/watch", movies: movies }}>
     <div

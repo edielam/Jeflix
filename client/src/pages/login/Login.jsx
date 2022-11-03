@@ -14,10 +14,13 @@ export default function Login() {
   };
   return (
     <div className="login">
-      <div className="log-top">
-      <div className="log-wrapper">
-        <img className="logo" 
-            src="https://raw.githubusercontent.com/edielam/ReactNodeJava/main/practice/JEFLIX2-removebg-preview.png" alt=''/>
+      <div className="top">
+        <div className="wrapper">
+          <img
+            className="logo"
+            src="https://raw.githubusercontent.com/edielam/ReactNodeJava/main/practice/JEFLIX2-removebg-preview.png"
+            alt=""
+          />
         </div>
       </div>
       <div className="container">
@@ -33,11 +36,11 @@ export default function Login() {
             placeholder="Password"
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button className="login-btn" onClick={() => {handleLogin()}}>
+          <button className="loginButton" onClick={handleLogin}>
             Sign In
           </button>
           <span>
-            New to Jetflix? <b>Sign up now.</b>
+            New to Netflix? <b>Sign up now.</b>
           </span>
           <small>
             This page is protected by Google reCAPTCHA to ensure you're not a
@@ -48,9 +51,3 @@ export default function Login() {
     </div>
   );
 }
-
-
-/* <div className="log-wrapper">
-<img className="logo" 
-    src="https://raw.githubusercontent.com/edielam/ReactNodeJava/main/practice/JEFLIX2-removebg-preview.png" alt=''/>
-</div> */

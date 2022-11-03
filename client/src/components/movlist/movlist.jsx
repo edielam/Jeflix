@@ -1,9 +1,6 @@
-import {
-    ArrowBackIosOutlined,
-    ArrowForwardIosOutlined,
-  } from "@material-ui/icons";
-  import { useRef, useState } from "react";
-import ListItem from "../movlistitem/movlistitem";
+import { ArrowBackIosOutlined, ArrowForwardIosOutlined} from "@material-ui/icons";
+import { useRef, useState } from "react";
+import MovListItem from "../movlistitem/movlistitem";
   import "./movlist.scss";
   
   export default function List({category}) {
@@ -35,7 +32,7 @@ import ListItem from "../movlistitem/movlistitem";
           />
           <div className="container" ref={listRef}>
           {category.content.map((item, i) => (
-            <ListItem index={i} item={item}/>
+            <MovListItem index={i} item={item}/>
             ))}
           </div>
           <ArrowForwardIosOutlined
