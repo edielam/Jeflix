@@ -1,4 +1,5 @@
 import { useContext, useState } from "react";
+import { useHistory } from "react-router-dom";
 import { login } from "../../authContext/apiCalls";
 import { AuthContext } from "../../authContext/AuthContext";
 import "./login.scss";
@@ -7,6 +8,10 @@ export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { dispatch } = useContext(AuthContext);
+  const history = useHistory();
+  const handleSignUp = () => {
+    history.push("/register");
+  } 
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -40,7 +45,8 @@ export default function Login() {
             Sign In
           </button>
           <span>
-            New to Netflix? <b>Sign up now.</b>
+            New to Jetflix? <span onClick={() => {handleSignUp()}} style={{cursor: 'pointer'}}><b>Sign Up now.</b>
+            </span>
           </span>
           <small>
             This page is protected by Google reCAPTCHA to ensure you're not a
