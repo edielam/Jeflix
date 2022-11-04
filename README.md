@@ -1,11 +1,15 @@
 # Jeflix
-### A full stack clone of the Netflix web application
+## A full stack clone of the Netflix web application
+- Technollogies used:
+&emsp; - React, NodeJs, ExpressJs, MongoDB Atlas, Ngingx Web Server
 
-Homepage
-![Homepage](https://github.com/edielam/Jeflix/blob/production/imgs/jeflix1.png?raw=true)\
+### Homepage
+![Homepage](https://github.com/edielam/Jeflix/blob/production/imgs/jeflix1.png?raw=true)
 
-Registeration Page
-![Register](https://github.com/edielam/Jeflix/blob/production/imgs/jeflix-reg.png?raw=true)\
 
-Login Page
+### Registeration Page
+![Register](https://github.com/edielam/Jeflix/blob/production/imgs/jeflix-reg.png?raw=true)
+
+
+###Login Page
 ![Login](https://github.com/edielam/Jeflix/blob/production/imgs/jeflix-login.png?raw=true)
