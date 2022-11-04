@@ -1,6 +1,6 @@
 # Jeflix
 ## A full stack clone of the Netflix web application
-- Technollogies used:\
+- Technologies used:\
 &emsp; - React, NodeJs, ExpressJs, MongoDB Atlas, Ngingx Web Server\
 &nbsp;
 &nbsp;
