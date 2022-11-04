@@ -5,7 +5,7 @@
 &nbsp;
 &nbsp;
 
-The application is live and can be viewed [here](https://jeflix.elam.tech) 
+The application is live. [Check it out!!](https://jeflix.elam.tech) 
 
 ### Homepage
 ![Homepage](https://github.com/edielam/Jeflix/blob/production/imgs/jeflix1.png?raw=true)
