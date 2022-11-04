@@ -24,7 +24,7 @@ The application is live and can be viewed [here](https://jeflix.elam.tech)
 &nbsp;
 
 ### Login Page
-![Login](https://github.com/edielam/Jeflix/blob/production/imgs/jeflix-login.png?raw=true)\
+![Login](https://github.com/edielam/Jeflix/blob/production/imgs/jeflix-login.png?raw=true)
 
 ## Author :black_nib:
 
