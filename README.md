@@ -28,7 +28,7 @@ The application is live. [Check it out!!](https://jeflix.elam.tech)
 
 ## Author :black_nib:
 
-- **Edward Lampoh** - <[edielam](https://github.com/edielam)>
+- **Edward Lampoh** - [edielam](https://github.com/edielam)
 
 ## License :lock:
 
