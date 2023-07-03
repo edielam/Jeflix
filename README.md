@@ -8,10 +8,6 @@ On the backend, Node.js and Express.js are utilized to create a robust and scala
 
 To ensure optimal performance and security, the project utilizes the Nginx web server, which acts as a reverse proxy and load balancer. Nginx helps in efficiently handling incoming requests and distributing them across multiple backend servers, resulting in improved responsiveness and scalability.
 
-Jeflix serves as a comprehensive showcase of full-stack development skills and provides an opportunity to delve into the intricacies of building a complex web application. By exploring the codebase and documentation, developers can gain insights into the implementation of features like user authentication, data management, content streaming, and more.
-
-Whether you are a beginner looking to enhance your full-stack development skills or an experienced developer seeking inspiration for building similar applications, Jeflix offers a valuable resource to learn and explore the intricacies of developing a Netflix-like web application.
-
 **Note: Jeflix is a clone project created for educational purposes and is not affiliated with or endorsed by Netflix.**
 
 
