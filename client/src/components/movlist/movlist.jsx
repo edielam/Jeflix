@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import MovListItem from "../movlistitem/movlistitem";
   import "./movlist.scss";
   
-  export default function List({category}) {
+  export default function Movlist({category}) {
     const [isMoved, setIsMoved] = useState(false);
     const [slideNumber, setSlideNumber] = useState(0);
   
