@@ -13,8 +13,8 @@ RUN npm install
 # Copy the remaining backend application code
 COPY . .
 
-# Expose port 5000 for the Express server
-EXPOSE 5000
+# Expose port 8080 (or any other available port) for the Express server
+EXPOSE 8080
 
 # Command to run the Express server
 CMD ["node", "index.js"]
