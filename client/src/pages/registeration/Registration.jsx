@@ -26,7 +26,7 @@ export default function Registeration() {
     setPassword(passwordRef.current.value);
     setUsername(usernameRef.current.value);
     try {
-      await axiosInstance.post("auth/register", { email,username, password });
+      await axiosInstance.post("/auth/register", { email,username, password });
       history.push("/login");
     } catch (err) {}
   };
